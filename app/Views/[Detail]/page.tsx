@@ -32,7 +32,7 @@ function Detail() {
   const stripePayment = async () => {
     
       try {                
-        const response = await fetch('http://localhost:3001/payment/createStripeCS', {
+        const response = await fetch('https://nest-refj.onrender.com/payment/createStripeCS', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
